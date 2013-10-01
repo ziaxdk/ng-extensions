@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Firefox 10.0.1 (Windows 7)" package="undefined" timestamp="2013-10-01T13:08:39" id="0" hostname="VCDUDVCOMMERCE" tests="6" errors="0" failures="0" time="0.091">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1"/>
+    </properties>
+    <testcase name="should have ng-invalid-ngx-remote when getting false" time="0.02" classname="Firefox 10.0.1 (Windows 7).ngxValidate Remote"/>
+    <testcase name="should have ng-valid-ngx-remote when getting true" time="0.016" classname="Firefox 10.0.1 (Windows 7).ngxValidate Remote"/>
+    <testcase name="should only issue one server request, when multiple blur events occur" time="0.017" classname="Firefox 10.0.1 (Windows 7).ngxValidate Remote"/>
+    <testcase name="should add a default className when none is specified" time="0.016" classname="Firefox 10.0.1 (Windows 7).ngxValidate Blur"/>
+    <testcase name="should add a &quot;benny&quot; className when &quot;benny&quot; is specified" time="0.007" classname="Firefox 10.0.1 (Windows 7).ngxValidate Blur"/>
+    <testcase name="should add the class ngx-attempt when form is submitting" time="0.015" classname="Firefox 10.0.1 (Windows 7).ngxValidate Submit"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
