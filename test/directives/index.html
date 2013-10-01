@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="dummy">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    <script src="angular-1.2.0-rc.2/angular.js"></script>
+    <script src="ngx-validation.js"></script>
+    <title>ngx-validation e2e tests</title>
+    <style type="text/css">
+      .ng-valid-ngx-remote {
+        border-color: black;
+      }
+      .ng-invalid-ngx-remote {
+        border-color: red;
+      }
+    </style>
+</head>
+
+<body ng-controller="Ctrl as c">
+  <form name="c.form" ng-submit="c.submit()">
+    <input type="text" ng-model="c.value" ngx-remote="/validate">
+    <input type="submit" value="GO" >
+  </form>
+
+  <pre>
+    {{c.value}}
+  <pre>
+  <script type="text/javascript">
+    (function () {
+      var m = angular.module('dummy', ['ngxValidate']);
+    }());
+
+  </script>
+</body>
+</html>
