@@ -12,7 +12,15 @@ module.exports = function(grunt) {
       unit: {
         configFile: 'karma.jasmine.conf',
         singleRun: true,
-        browsers: ['Firefox', 'IE', 'Chrome']
+        browsers: ['Firefox']
+      },
+      coverage: {
+        configFile: 'karma.jasmine.conf',
+        singleRun: true,
+        browsers: ['Firefox'],
+        files: [
+          'src/directives/*.js'
+        ],
       }
     }
 
@@ -22,6 +30,6 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-karma');
 
-  grunt.registerTask('default', ['karma']);
+  grunt.registerTask('default', ['karma:unit']);
 
 };

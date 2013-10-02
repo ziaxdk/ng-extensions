@@ -31,7 +31,7 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['progress', 'junit'],
+    reporters: ['dots', 'progress', 'junit', 'coverage'],
 
     junitReporter: {
       // will be resolved to basePath (in the same way as files/exclude patterns)
@@ -42,13 +42,13 @@ module.exports = function(config) {
       // source files, that you wanna generate coverage for
       // do not include tests or libraries
       // (these files will be instrumented by Istanbul)
-      'src/*.js': ['coverage']
+      'src/directives/*.js': ['coverage']
     },
 
     // optionally, configure the reporter
     coverageReporter: {
       type : 'html',
-      dir : 'out/coverage/'
+      dir : 'out'
     },
 
 
