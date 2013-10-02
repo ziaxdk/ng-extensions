@@ -19,7 +19,7 @@ module.exports = function(config) {
       'src/angular-1.2.0-rc.2/angular-mocks.js',
       'src/angular-1.2.0-rc.2/matchers.js',
       'src/directives/*.js',
-      'test/directives/*.test.js'
+      'test/directives/*.spec.js'
     ],
 
 
