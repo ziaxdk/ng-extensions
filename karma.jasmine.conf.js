@@ -31,7 +31,7 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['dots', 'progress', 'junit', 'coverage'],
+    reporters: ['progress', 'junit', 'coverage'],
 
     junitReporter: {
       // will be resolved to basePath (in the same way as files/exclude patterns)

@@ -1,9 +1,16 @@
 {
-  "name": "ng-extensions",
+  "name": "ngx-extensions",
   "version": "0.0.0",
   "description": "Home brew and hacks for ng",
   "author": "ZiaxDk",
   "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziaxdk/ng-extentions"
+  },
+  "keywords": [
+    "angular"
+  ],
   "devDependencies": {
     "karma-script-launcher": "~0.1.0",
     "karma-chrome-launcher": "~0.1.0",
@@ -20,6 +27,9 @@
     "karma-coverage": "~0.1.0",
     "grunt": "~0.4.1",
     "grunt-karma": "~0.6.2",
-    "karma-ie-launcher": "~0.1.1"
+    "karma-ie-launcher": "~0.1.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-clean": "~0.5.0"
   }
 }
