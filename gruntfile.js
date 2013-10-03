@@ -15,6 +15,12 @@ module.exports = function(grunt) {
       dev: {
         configFile: 'karma.jasmine.conf',
         reporters: ['progress']
+      },
+      e2e: {
+        configFile: 'karma.e2e.conf',
+        reporters: ['progress'],
+        singleRun: true,
+        browsers: ['Firefox']
       }
     },
 
@@ -52,6 +58,15 @@ module.exports = function(grunt) {
           'dist/<%= pkg.name %>.min.js': ['dist/<%= pkg.name %>.js']
         }
       }
+    },
+
+    connect: {
+      testserver: {
+        options: {
+          base: __dirname + '/test/directives',
+          port: 9001,
+        }
+      }
     }
   });
 
@@ -59,8 +74,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
-  grunt.registerTask('default', ['karma:unit']);
+  grunt.registerTask('test:unit', ['karma:unit']);
+  grunt.registerTask('test:e2e', ['connect:testserver', 'karma:e2e']);
   grunt.registerTask('build', ['clean', 'concat', 'uglify']);
   grunt.registerTask('dev', ['karma:dev']);
+  //grunt.registerTask('default', ['express']);
+
+  grunt.registerTask('custom', function () {
+    grunt.log.writeln('custom task, code goes here');
+  });
 };

@@ -46,7 +46,7 @@ module.exports = function(config) {
     autoWatch: true,
 
     proxies: {
-      '/': 'http://localhost:8080/'
+      '/e2e/': 'http://localhost:9001/'
     },
 
     // Start these browsers, currently available:
@@ -61,7 +61,9 @@ module.exports = function(config) {
 
     plugins: [
       'karma-ng-scenario',
-      'karma-chrome-launcher'
+      'karma-chrome-launcher',
+      'karma-firefox-launcher',
+      'karma-ie-launcher'
     ],
 
     // If browser does not capture in given timeout [ms], kill it
