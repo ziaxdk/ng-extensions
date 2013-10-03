@@ -1,8 +1,10 @@
-module.exports = function(grunt) {
+var utils = require('./grunt-ngx-extensions');
 
-  // Project configuration.
+
+module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    hash: utils.getHash(),
 
     karma: {
       unit: {
@@ -13,25 +15,18 @@ module.exports = function(grunt) {
       dev: {
         configFile: 'karma.jasmine.conf',
         reporters: ['progress']
-
-      }/*,
-      coverage: {
-        configFile: 'karma.jasmine.conf',
-        singleRun: true,
-        browsers: ['Firefox'],
-        files: [
-          'src/directives/*.js'
-        ],
-      }*/
+      }
     },
 
-    clean: ["dist"],
+    clean: {
+      dist: ["dist"]
+    },
 
     concat: {
       dist: {
         options: {
           stripBanners: true,
-          banner: '/*! <%=pkg.name %> by <%= pkg.author %> - build at: <%= grunt.template.today("yyyy-mm-dd") %> - <%= pkg.repository.url %> */\r\n' +
+          banner: '/*! <%=pkg.name %> by <%= pkg.author %> - build at: <%= grunt.template.today("yyyy-mm-dd") %> - <%= pkg.repository.url %> (<%= hash %>) */\r\n' +
             '(function () {\r\n  var module = angular.module(\'ngxExtensions\', []);\r\n',
           footer: '}());',
           process: function (src, filePath) {
@@ -50,7 +45,7 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         options: {
-          banner: '/*! <%=pkg.name %> by <%= pkg.author %> - build at: <%= grunt.template.today("yyyy-mm-dd") %> - <%= pkg.repository.url %> */\r\n',
+          banner: '/*! <%=pkg.name %> by <%= pkg.author %> - build at: <%= grunt.template.today("yyyy-mm-dd") %> - <%= pkg.repository.url %> (<%= hash %>) */\r\n',
           report: 'gzip'
         },
         files: {
