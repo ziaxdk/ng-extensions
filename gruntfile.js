@@ -37,7 +37,7 @@ module.exports = function(grunt) {
           }
         },
         files: {
-          'dist/ngx-ziax.js': ['src/directives/*.js']
+          'dist/<%= pkg.name %>.js': ['src/directives/*.js']
         }
       }
     },
@@ -45,11 +45,11 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         options: {
-          banner: '/*! <%=pkg.name %> by <%= pkg.author %> - build at: <%= grunt.template.today("yyyy-mm-dd") %> - <%= pkg.repository.url %> (<%= hash %>) */\r\n',
+          banner: '/*! <%= pkg.name %> by <%= pkg.author %> - build at: <%= grunt.template.today("yyyy-mm-dd") %> - <%= pkg.repository.url %> (<%= hash %>) */\r\n',
           report: 'gzip'
         },
         files: {
-          'dist/ngx-ziax.min.js': ['dist/ngx-ziax.js']
+          'dist/<%= pkg.name %>.min.js': ['dist/<%= pkg.name %>.js']
         }
       }
     }
