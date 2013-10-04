@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+  var module = angular.module('ngxTabsModule', []);
 
   var supports_html5_storage = function () {
     try {
@@ -8,8 +9,6 @@
       return false;
     }
   };
-
-  var module = angular.module('ngxTabsModule', []);
 
   module.directive("ngxTabs", ['$window', function ($window) {
     return {
@@ -28,7 +27,8 @@
         };
 
         var storePane = function (pane) {
-          $window.localStorage[$attrs.rememberKey] = pane.title;
+          //$window.localStorage[$attrs.rememberKey] = pane.title;
+          $window.localStorage.setItem($attrs.rememberKey, pane.title);
         };
         var getPane = function () {
           if (!shouldRemeber()) return;
@@ -40,7 +40,7 @@
         this.addPane = function (ngxPane) {
           this.panes.push(ngxPane);
           if (this.panes.length == 1) ngxPane.active = true;
-          if (shouldRemeber()) this.select({title: getPane()});
+          if (shouldRemeber()) this.select({ title: getPane() });
         };
 
         this.select = function (pane) {
