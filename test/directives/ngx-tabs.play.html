@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="dummy">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    <script src="/src/angular-1.2.0-rc.2/angular.js"></script>
+    <script src="/src/directives/ngx-tabs.js"></script>
+    <title>ngx-tabs playground</title>
+
+    <style type="text/css">
+      .ngx-tabs ul {
+        margin: 0;
+        padding: 0;
+      }
+      .ngx-tabs ul li {
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: 0 10px;
+      }
+      .ngx-tabs .ngx-tabs-active {
+        font-weight: bold;
+      }
+      .ngx-pane-content {
+        display: none;
+      }
+      .ngx-pane-content.ngx-pane-content-active {
+        display: block;
+      }
+    </style>
+
+</head>
+
+<body ng-controller="Ctrl as c">
+  <hr>
+
+  <ngx-tabs remember-key="simple">
+    <ngx-pane title="Tab1"><h1>Content tab1</h1></ngx-pane>
+    <ngx-pane title="Tab2"><h1>Content tab2</h1></ngx-pane>
+  </ngx-tabs>
+
+  <div style="clear: both"></div>
+  <hr>
+
+  <script type="text/javascript">
+    (function () {
+      var m = angular.module('dummy', ['ngxTabsModule']);
+
+      m.controller("Ctrl", function () {
+
+      })
+    }());
+
+  </script>
+</body>
+</html>
