@@ -47,31 +47,6 @@
     };
   }]);
 
-  module.directive('ngxValidationBlur', [function () {
-    return {
-      restrict: 'A',
-      link: function (scope, element, attr) {
-        var clazz = attr["ngxValidationBlur"] || 'ngx-blur';
-        element.on('blur', function () {
-          if (element.hasClass(clazz)) return;
-          element.addClass(clazz);
-        });
-      }
-    };
-  }]);
-
-  module.directive('ngxSubmit', ['$parse', function ($parse) {
-    return function (scope, element, attr) {
-      var fn = $parse(attr.ngxSubmit);
-      element.on('submit', function (event) {
-        element.addClass('ngx-attempt');
-        scope.$apply(function () {
-          fn(scope, { $event: event });
-        });
-      });
-    };
-  }]);
-
   module.directive('ngxSafePlaceholder', [function () {
     return function (scope, element, attr) {
       if ('placeholder' in document.createElement('input')) return; // Browser supports placeholder natively

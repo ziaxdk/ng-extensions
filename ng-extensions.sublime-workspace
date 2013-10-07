@@ -1,0 +1,523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"spy",
+				"spyOn"
+			],
+			[
+				"to",
+				"toHaveClass"
+			],
+			[
+				"get",
+				"getPane"
+			],
+			[
+				"re",
+				"remember"
+			],
+			[
+				"sp",
+				"supports_html5_storage"
+			],
+			[
+				"pane",
+				"panes"
+			],
+			[
+				"add",
+				"addPane"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"tab",
+				"tab-if"
+			],
+			[
+				"res",
+				"restrict"
+			],
+			[
+				"ngx",
+				"ngxRemoteValidated"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"vali",
+				"validate"
+			],
+			[
+				"ng",
+				"ngxRemote"
+			],
+			[
+				"ha",
+				"hasClazz"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"fl",
+				"flush"
+			],
+			[
+				"roo",
+				"rootScope"
+			],
+			[
+				"in",
+				"injector"
+			],
+			[
+				"inject",
+				"injector"
+			],
+			[
+				"inj",
+				"injector"
+			],
+			[
+				"inje",
+				"inject"
+			],
+			[
+				"http",
+				"httpBackend"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"cons",
+				"constants"
+			],
+			[
+				"set",
+				"setDirty"
+			],
+			[
+				"sub",
+				"submitting"
+			],
+			[
+				"form",
+				"formUri"
+			],
+			[
+				"do",
+				"doLogin"
+			],
+			[
+				"lgin",
+				"loginForm"
+			],
+			[
+				"login",
+				"loginForm"
+			],
+			[
+				"input",
+				"INPUT	Tag"
+			],
+			[
+				"time",
+				"timeout	setTimeout function"
+			],
+			[
+				"t",
+				"timeout	setTimeout function"
+			],
+			[
+				"is",
+				"isArray"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"for",
+				"forQ"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"filter",
+				"filterDelay"
+			],
+			[
+				"a",
+				"angular"
+			],
+			[
+				"se",
+				"selectedVal"
+			],
+			[
+				"sel",
+				"selectedPredicate"
+			],
+			[
+				"def",
+				"deferFilter"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ko01epp/Desktop/bower/.bowerrc",
+		"/C/Users/ko01epp/Desktop/bower/karma-e2e.conf.js",
+		"/C/Users/ko01epp/Desktop/bower/bower_components/angular-scroll/angular-scroll.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-claps.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/gruntfile.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.play.html",
+		"/C/Users/ko01epp/.npmrc",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-tabs.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/karma.e2e.conf.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.html",
+		"/C/Users/ko01epp/Desktop/ng-extensions/package.json",
+		"/C/Users/ko01epp/Desktop/ng-extensions/dist/ngx-extensions.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/dist/ngx-extensions.min.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-claps.spec.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/ng-cookies-module.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/angular-cookies.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/server-connect.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/server-express.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Views/Shared/_Layout.cshtml",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/App_Start/BundleConfig.cs",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Views/Login/Login.cshtml",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/OLDlogin.css",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/login.css",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Content/login.css",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Global.asax.cs",
+		"/C/Users/ko01epp/Desktop/ng-extensions/server.e2e.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/_connect.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/Gruntfile.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/karma-e2e.conf.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/lib/grunt/utils.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/package.json",
+		"/C/Users/ko01epp/Desktop/ng-extentions/dist/ngx-extensions.min.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/dist/ngx-extensions.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/.git/config",
+		"/C/Users/ko01epp/Desktop/ng-extentions/gruntfile.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/grunt-ngx-extensions.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/dist/ngx-ziax.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/lib/grunt/plugins.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/dist/ngx-ziax.min.js",
+		"/C/Users/ko01epp/Desktop/package.json",
+		"/C/Users/ko01epp/Desktop/ng-extentions/test/directives/ngx-claps.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/karma.jasmine.conf.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/src/directives/ngx-claps.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/src/directives/ngx-validation.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/_test.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/test/directives/ngx-validation.e2e.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/out/coverage-IE 9.0.0 (Windows 7)-20131002_151148.json",
+		"/C/Users/ko01epp/Desktop/ng-extentions/test/directives/ngx-validation.spec.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/angularFiles.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/dist/built.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/.gitignore",
+		"/C/Users/ko01epp/Desktop/ng-extentions/out/test-results.xml",
+		"/C/Users/ko01epp/Desktop/ng-extentions/out/coverage-Firefox 10.0.1 (Windows 7)-20131002_131449.json",
+		"/C/Users/ko01epp/Desktop/ng-extentions/out/coverage-Firefox 10.0.1 (Windows 7)-20131002_125609.json",
+		"/C/Users/ko01epp/Desktop/ng-extentions/out/coverage-Firefox 10.0.1 (Windows 7)-20131002_125238.json",
+		"/C/Users/ko01epp/Desktop/angular.js-master/karma-modules.conf.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/test/directives/ngx-claps.spec.test.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/karma.e2e.conf.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/karma-e2e.conf.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/server.e2e.js",
+		"/C/Users/ko01epp/Desktop/OAuth - debug.sql",
+		"/C/Users/ko01epp/Desktop/ng-rem/spec/e2e/ngx-validation-e2e.test.js",
+		"/C/Users/ko01epp/Desktop/ng-extentions/karma.conf.js",
+		"/C/Users/ko01epp/Documents/Visual Studio 2012/Projects/Coop.OAuth/CallSeasNVE/bin/Debug/CallSeasNVE.exe.config",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/ngx-validation.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/spec/test/ngx-validation.test.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/karma.conf.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/.gitignore",
+		"/C/Users/ko01epp/Desktop/e2e-testing-examples/weinre/README.md",
+		"/C/Users/ko01epp/Desktop/e2e-testing-examples/.git/config",
+		"/C/Users/ko01epp/Desktop/e2e-testing-examples/weinre/node_modules/.bin/weinre.cmd",
+		"/C/Users/ko01epp/Desktop/e2e-testing-examples/README.md",
+		"/C/Users/ko01epp/Desktop/ALTOK.csv",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Views/TabLayout/TabLayoutLogin.cshtml",
+		"/C/Users/ko01epp/Desktop/ng-rem/out/junit/test-results.xml",
+		"/C/Users/ko01epp/Desktop/ng-rem/node-selenium.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/out/coverage/coverage-Firefox 10.0.1 (Windows 7)-20130925_113336.json",
+		"/C/Users/ko01epp/Desktop/ng-rem/package.json",
+		"/C/Users/ko01epp/Desktop/ng-rem/test-results.xml",
+		"/C/Users/ko01epp/Desktop/ng-rem/karma-e2e.conf.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Scripts/coop.resetpassword.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Scripts/jquery.placeholder.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Scripts/coop.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Views/Login/ResetPassword.cshtml",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/ngx-validation-with-scope.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/ngx-validation.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/ngx-validation.min.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/index.html",
+		"/C/Users/ko01epp/Desktop/ng-rem/server.js",
+		"/C/Users/ko01epp/Desktop/ngx-remote-validate.test.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/spec/ngx-remote-validate.test.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/test/helpers/matchers.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/spec/test/ngx-remote-validate.test.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/ng-remote-validate.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/ng-blur-class.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/test/e2e/ngx-remote-validate.test.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/spec/e2e/ngx-remote-validate.test.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/src/ngScenario/browserTrigger.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/test/ng/directive/ngKeySpec.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/src/ng/directive/input.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/src/ng/directive/form.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/angular-1.2.0-rc.2/jqLite.js",
+		"/C/Users/ko01epp/Desktop/angular.js-master/src/jqLite.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/src/angular-1.2.0-rc.2/angular-mocks.js",
+		"/C/Users/ko01epp/Desktop/ng-rem/test/ngx-remote-validate-spec.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_TEST/Web.config",
+		"/C/Users/ko01epp/Desktop/New Text Document.txt",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_DEMO/Web.config",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_PROD/Web.config",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Web.config",
+		"/C/Program Files (x86)/Microsoft Visual Studio 11.0/Common7/IDE/devenv.exe.config",
+		"/C/Users/ko01epp/Desktop/wdsl/output.config",
+		"/C/Program Files (x86)/Microsoft SDKs/Windows/v7.0A/Bin/SvcUtil.exe.config",
+		"/C/Users/ko01epp/Desktop/wdsl/COOPIntegrationService.cs",
+		"/C/Users/ko01epp/Desktop/ng-rem/.bowerrc",
+		"/C/Users/ko01epp/Desktop/ng-rem/bower.json",
+		"/C/Users/ko01epp/AppData/Roaming/npm/bower",
+		"/C/Users/ko01epp/AppData/Roaming/npm/bower.cmd",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/ng-reset-module.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Web.config",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Models/ResetPasswordVM.cs",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Controllers/LoginController.cs",
+		"/C/Users/ko01epp/Desktop/BaseLoginVM.cs",
+		"/C/Coop/Assemblies/Enviroment/Enviroment.xml",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Login.csproj",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Login.csproj.vspscc"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this",
+			"ngxPane",
+			"src",
+			"{",
+			"ngx",
+			"wrap",
+			"it",
+			"2.5",
+			"cubic-bezier(0.250, 0.460, 0.450, 0.940)",
+			"animate-if",
+			"console",
+			"parse",
+			"$rootScope",
+			"rootScope",
+			"className",
+			"hasclass",
+			"NgModelController",
+			"push",
+			"inject",
+			"system.net",
+			"session",
+			"bot",
+			"system.we",
+			"/>\n",
+			"resetpass",
+			"proxyPost",
+			"GetStatus",
+			"ValiderBrugerMedFacebook",
+			"ValiderBruger",
+			"location",
+			"loginNow",
+			"tilbud",
+			"faceb",
+			"login.css",
+			"login.c",
+			"1000",
+			"safe",
+			"boo",
+			"webser",
+			"this",
+			"setSelectedValue",
+			");  ",
+			"5.5",
+			"5",
+			"0",
+			"animate-show",
+			"webkit",
+			"NAME-YOUR-ANIMATION",
+			"10",
+			"2",
+			"1",
+			"3",
+			"2.5",
+			"ziax",
+			"enter_sequence"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

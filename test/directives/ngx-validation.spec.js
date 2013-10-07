@@ -1,7 +1,6 @@
-
-// testing controller
 describe('ngxValidate', function() {
   beforeEach(module('ngxValidate'));
+
 
   describe('Remote', function () {
     var hb,
@@ -22,7 +21,6 @@ describe('ngxValidate', function() {
       expect(scope.model.callback).toHaveBeenCalled();
       scope.$destroy();
     });
-
 
      // Single element
     it('should have ng-invalid-ngx-remote when getting false', inject(function ($compile) {
@@ -72,43 +70,5 @@ describe('ngxValidate', function() {
       expect(element).toHaveClass('ng-valid-ngx-remote');
     }));
 
-
   });
-
-  describe("Blur", function () {
-
-    it('should add a default className when none is specified', inject(function ($compile, $rootScope) {
-      var element = $compile('<input type="text" ng-model="value" ngx-validation-blur />')($rootScope);
-      element.trigger('blur');
-
-      var hasClazz = element.hasClass('ngx-blur');
-      expect(hasClazz).toBe(true);
-    }));
-
-    it('should add a "benny" className when "benny" is specified', inject(function ($compile, $rootScope) {
-      var element = $compile('<input type="text" ng-model="value" ngx-validation-blur="benny" />')($rootScope);
-      element.trigger('blur');
-
-      var hasClazz = element.hasClass('benny');
-      expect(hasClazz).toBe(true);
-    }));
-
-  });
-
-  describe("Submit", function () {
-
-    it('should add the class ngx-attempt when form is submitting', inject(function ($compile, $rootScope) {
-      var scope = $rootScope;
-      scope.submitFn = jasmine.createSpy();
-      var element = $compile('<form ngx-submit="submitFn()" action=""><input type="submit" /></form>')(scope);
-      scope.$digest();
-
-      element.trigger('submit');
-      var hasClazz = element.hasClass('ngx-attempt');
-      expect(hasClazz).toBe(true);
-      expect(scope.submitFn).toHaveBeenCalled();
-    }));
-
-  });
-
 });

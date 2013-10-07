@@ -14,6 +14,7 @@ module.exports = function(grunt) {
       },
       dev: {
         configFile: 'karma.jasmine.conf',
+        browsers: ['PhantomJS'],
         reporters: ['progress']
       },
       e2e: {
