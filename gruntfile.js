@@ -37,9 +37,9 @@ module.exports = function(grunt) {
             '(function () {\r\n  var module = angular.module(\'ngxExtensions\', []);\r\n',
           footer: '}());',
           process: function (src, filePath) {
-            var elements = src.split('\r\n');
+            var elements = src.split('\n');
             var finals = elements.splice(4, elements.length - 5);
-            return finals.join('\r\n');
+            return finals.join('\n');
             //return src;
           }
         },

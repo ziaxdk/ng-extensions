@@ -2,15 +2,15 @@
   'use strict';
   var module = angular.module('ngxTabsModule', []);
 
-  var supports_html5_storage = function () {
-    try {
-      return 'localStorage' in window && window['localStorage'] !== null;
-    } catch (e) {
-      return false;
-    }
-  };
-
   module.directive("ngxTabs", ['$window', function ($window) {
+    var supports_html5_storage = function () {
+      try {
+        return 'localStorage' in window && window['localStorage'] !== null;
+      } catch (e) {
+        return false;
+      }
+    };
+
     return {
       controllerAs: 'pc',
       restrict: 'E',
