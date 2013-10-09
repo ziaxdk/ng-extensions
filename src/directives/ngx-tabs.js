@@ -28,7 +28,6 @@
         };
 
         var storePane = function (pane) {
-          //$window.localStorage[$attrs.rememberKey] = pane.title;
           $window.localStorage.setItem($attrs.rememberKey, pane.title);
         };
         var getPane = function () {
@@ -45,7 +44,7 @@
         };
 
         this.select = function (pane) {
-          if (pane.title == typeof undefined) return;
+          if(!pane.title) return;
           angular.forEach(this.panes, function (p) {
             p.active = p.title == pane.title;
           });
