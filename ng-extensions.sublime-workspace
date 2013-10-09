@@ -195,9 +195,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
@@ -223,7 +227,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -240,22 +244,39 @@
 	},
 	"file_history":
 	[
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-blur.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/karma.jasmine.conf.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-blur.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-validation.js",
+		"/C/Users/ko01epp/Desktop/demo/package.json",
+		"/C/Users/ko01epp/Desktop/ng-extensions/package.json",
+		"/C/Users/ko01epp/Desktop/ng-extensions2/package.json",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Controllers/SeasNVEController.cs",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-validation-with-scope.jsold",
+		"/C/Users/ko01epp/Desktop/ng-extensions/.gitignore",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Controllers/FDBSkoleKontaktController.cs",
+		"/C/CoopSourceKO01EPP/Coop.Subdomain/Coop.Subdomain.OAuthLogin/Trunk/src/Coop.Subdomain.OAuthLogin/Coop.Subdomain.OAuthLogin/Pipeline/Domain/FDBSkolekontaktDomain.cs",
+		"/C/Users/ko01epp/Desktop/ng-extensions/gruntfile.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/dist/ngx-extensions.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-tabs.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-submit.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-claps.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/grunt-ngx-extensions.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-submit.spec.js",
+		"/C/Users/ko01epp/Desktop/New folder/ngx-validation.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-claps.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.spec.js",
 		"/C/Users/ko01epp/Desktop/bower/.bowerrc",
 		"/C/Users/ko01epp/Desktop/bower/karma-e2e.conf.js",
 		"/C/Users/ko01epp/Desktop/bower/bower_components/angular-scroll/angular-scroll.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-claps.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.spec.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/gruntfile.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.play.html",
 		"/C/Users/ko01epp/.npmrc",
-		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-tabs.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/karma.e2e.conf.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.html",
-		"/C/Users/ko01epp/Desktop/ng-extensions/package.json",
-		"/C/Users/ko01epp/Desktop/ng-extensions/dist/ngx-extensions.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/dist/ngx-extensions.min.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-claps.spec.js",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/ng-cookies-module.js",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/angular-cookies.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/server-connect.js",
@@ -350,24 +371,7 @@
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_TEST/Web.config",
 		"/C/Users/ko01epp/Desktop/New Text Document.txt",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_DEMO/Web.config",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_PROD/Web.config",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Web.config",
-		"/C/Program Files (x86)/Microsoft Visual Studio 11.0/Common7/IDE/devenv.exe.config",
-		"/C/Users/ko01epp/Desktop/wdsl/output.config",
-		"/C/Program Files (x86)/Microsoft SDKs/Windows/v7.0A/Bin/SvcUtil.exe.config",
-		"/C/Users/ko01epp/Desktop/wdsl/COOPIntegrationService.cs",
-		"/C/Users/ko01epp/Desktop/ng-rem/.bowerrc",
-		"/C/Users/ko01epp/Desktop/ng-rem/bower.json",
-		"/C/Users/ko01epp/AppData/Roaming/npm/bower",
-		"/C/Users/ko01epp/AppData/Roaming/npm/bower.cmd",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/ng-reset-module.js",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Web.config",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Models/ResetPasswordVM.cs",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Controllers/LoginController.cs",
-		"/C/Users/ko01epp/Desktop/BaseLoginVM.cs",
-		"/C/Coop/Assemblies/Enviroment/Enviroment.xml",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Login.csproj",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Login.csproj.vspscc"
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_PROD/Web.config"
 	],
 	"find":
 	{
@@ -385,6 +389,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"scope",
 			"this",
 			"ngxPane",
 			"src",
@@ -518,6 +523,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 288.0,
 	"status_bar_visible": true
 }

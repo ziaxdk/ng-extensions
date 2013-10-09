@@ -20,6 +20,7 @@
       '</li></ul>' +
       '<div class="ngx-tabs-content" ng-transclude></div></div>',
       replace: true,
+      scope: {},
       transclude: true,
       controller: ['$scope', '$element', '$attrs', function($scope, $element, $attrs) {
         var shouldRemeber = function () {
@@ -44,6 +45,7 @@
         };
 
         this.select = function (pane) {
+          if (pane.title == typeof undefined) return;
           angular.forEach(this.panes, function (p) {
             p.active = p.title == pane.title;
           });

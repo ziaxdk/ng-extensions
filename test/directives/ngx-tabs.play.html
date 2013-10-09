@@ -34,10 +34,17 @@
 
 <body ng-controller="Ctrl as c">
   <hr>
+  <h4>{{c.text}}</h4>
 
   <ngx-tabs remember-key="simple">
     <ngx-pane title="Tab1"><h1>Content tab1</h1></ngx-pane>
     <ngx-pane title="Tab2"><h1>Content tab2</h1></ngx-pane>
+  </ngx-tabs>
+
+  <div style="clear: both"></div>
+  <ngx-tabs remember-key="simple3">
+    <ngx-pane title="Tab1"><h1>Content tab1 <a href="#" ng-click="c.click()">click</a></h1></ngx-pane>
+    <ngx-pane title="Tab2"><h1>Content tab2 with {{c.text}}</h1></ngx-pane>
   </ngx-tabs>
 
   <div style="clear: both"></div>
@@ -49,6 +56,10 @@
 
       m.controller("Ctrl", function () {
 
+        this.text = "Hello";
+        this.click = function () {
+          console.log('clicked');
+        }
       })
     }());
 
