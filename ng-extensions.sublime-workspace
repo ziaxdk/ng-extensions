@@ -191,27 +191,60 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/directives/ngx-when-scrolled.js",
+			"settings":
+			{
+				"buffer_size": 390,
+				"line_ending": "Windows",
+				"name": "// Directives"
+			}
+		},
+		{
+			"file": "test/directives/ngx-when-scrolled.spec.js",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/directives/ngx-validation.spec.js",
+			"settings":
+			{
+				"buffer_size": 2143,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 196.0,
 		"selected_items":
 		[
-			[
-				"install",
-				"Package Control: Install Package"
-			],
 			[
 				"html",
 				"Set Syntax: HTML"
 			],
 			[
-				"json",
-				"Set Syntax: JSON"
+				"in",
+				"Package Control: Install Package"
 			],
 			[
-				"in",
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lsit",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -219,15 +252,27 @@
 				"Set Syntax: XML"
 			],
 			[
-				"insta",
+				"pck",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"pack",
-				"Preferences: Browse Packages"
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -244,38 +289,57 @@
 	},
 	"file_history":
 	[
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-blur.spec.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/karma.jasmine.conf.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-blur.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-when-scrolled.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-blur.spec.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-blur.js",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.CoopPlusMVC/Trunk/CoopPlus.Web/Views/Tilbud/Medlemstilbud.cshtml",
+		"/C/VareService.cs",
+		"/C/Users/ko01epp/AppData/Roaming/Sublime Text 2/Packages/Emmet/emmet-plugin.py",
+		"/C/Users/ko01epp/AppData/Roaming/Sublime Text 2/Packages/PyV8/pyv8-win64/PyV8.py",
+		"/C/Users/ko01epp/AppData/Roaming/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/C/Users/ko01epp/AppData/Roaming/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/C/TestService.cs",
+		"/C/Users/ko01epp/Desktop/WCF/Reference.cs",
+		"/C/CoopSourceKO01EPP/Coop.Subdomain/Coop.Subdomain.Abonnement/Trunk/src/Coop.Subdomain.Abonnement/Coop.Subdomain.Abonnement/Service References/WCF/VareService.wsdl",
+		"/C/Users/ko01epp/Desktop/WCF/Reference.svcmap",
+		"/C/Users/ko01epp/Desktop/Abonnement SVC/output.config",
+		"/C/Users/ko01epp/Desktop/WCFVareService.cs",
+		"/C/Users/ko01epp/Desktop/Abonnement SVC/VareService.cs",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OnlinePlus/Development/scr/OnlinePlus.Application/OnlinePlus.Web/Web.config",
+		"/C/CoopSourceKO01EPP/Applikationer Internet Administration/Coop.Applikation.AbonnementAdmin/Trunk/src/AbonnementAdmin/AbonnementAdmin/AbonnementAdmin.csproj",
+		"/C/CoopSourceKO01EPP/Applikationer Internet Administration/Coop.Applikation.AbonnementAdmin/Trunk/src/AbonnementAdmin/AbonnementAdmin/AbonnementAdmin.csproj.vspscc",
+		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-tabs.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.play.html",
+		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/login.css",
+		"/C/Users/ko01epp/Desktop/ng-extensions/gruntfile.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/package.json",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.html",
+		"/C/Users/ko01epp/Desktop/ng-extensions/node-selenium.js",
+		"/C/Users/ko01epp/Desktop/ng-extensions/grunt-ngx-extensions.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/ko01epp/Desktop/ng-extensions/karma.jasmine.conf.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-validation.js",
 		"/C/Users/ko01epp/Desktop/demo/package.json",
-		"/C/Users/ko01epp/Desktop/ng-extensions/package.json",
 		"/C/Users/ko01epp/Desktop/ng-extensions2/package.json",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Controllers/SeasNVEController.cs",
 		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-validation-with-scope.jsold",
 		"/C/Users/ko01epp/Desktop/ng-extensions/.gitignore",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Controllers/FDBSkoleKontaktController.cs",
 		"/C/CoopSourceKO01EPP/Coop.Subdomain/Coop.Subdomain.OAuthLogin/Trunk/src/Coop.Subdomain.OAuthLogin/Coop.Subdomain.OAuthLogin/Pipeline/Domain/FDBSkolekontaktDomain.cs",
-		"/C/Users/ko01epp/Desktop/ng-extensions/gruntfile.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/dist/ngx-extensions.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-tabs.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-submit.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/src/directives/ngx-claps.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/grunt-ngx-extensions.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-submit.spec.js",
 		"/C/Users/ko01epp/Desktop/New folder/ngx-validation.spec.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-claps.spec.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.js",
 		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.spec.js",
 		"/C/Users/ko01epp/Desktop/bower/.bowerrc",
 		"/C/Users/ko01epp/Desktop/bower/karma-e2e.conf.js",
 		"/C/Users/ko01epp/Desktop/bower/bower_components/angular-scroll/angular-scroll.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-tabs.play.html",
 		"/C/Users/ko01epp/.npmrc",
 		"/C/Users/ko01epp/Desktop/ng-extensions/karma.e2e.conf.js",
-		"/C/Users/ko01epp/Desktop/ng-extensions/test/directives/ngx-validation.e2e.html",
 		"/C/Users/ko01epp/Desktop/ng-extensions/dist/ngx-extensions.min.js",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/ng-cookies-module.js",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/angular-cookies.js",
@@ -285,7 +349,6 @@
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/App_Start/BundleConfig.cs",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Views/Login/Login.cshtml",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/OLDlogin.css",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Content/TabLayout/login.css",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Content/login.css",
 		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.Login/Trunk/src/Login/Global.asax.cs",
 		"/C/Users/ko01epp/Desktop/ng-extensions/server.e2e.js",
@@ -353,25 +416,7 @@
 		"/C/Users/ko01epp/Desktop/ng-rem/src/index.html",
 		"/C/Users/ko01epp/Desktop/ng-rem/server.js",
 		"/C/Users/ko01epp/Desktop/ngx-remote-validate.test.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/spec/ngx-remote-validate.test.js",
-		"/C/Users/ko01epp/Desktop/angular.js-master/test/helpers/matchers.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/spec/test/ngx-remote-validate.test.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/src/ng-remote-validate.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/src/ng-blur-class.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/test/e2e/ngx-remote-validate.test.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/spec/e2e/ngx-remote-validate.test.js",
-		"/C/Users/ko01epp/Desktop/angular.js-master/src/ngScenario/browserTrigger.js",
-		"/C/Users/ko01epp/Desktop/angular.js-master/test/ng/directive/ngKeySpec.js",
-		"/C/Users/ko01epp/Desktop/angular.js-master/src/ng/directive/input.js",
-		"/C/Users/ko01epp/Desktop/angular.js-master/src/ng/directive/form.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/src/angular-1.2.0-rc.2/jqLite.js",
-		"/C/Users/ko01epp/Desktop/angular.js-master/src/jqLite.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/src/angular-1.2.0-rc.2/angular-mocks.js",
-		"/C/Users/ko01epp/Desktop/ng-rem/test/ngx-remote-validate-spec.js",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_TEST/Web.config",
-		"/C/Users/ko01epp/Desktop/New Text Document.txt",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_DEMO/Web.config",
-		"/C/CoopSourceKO01EPP/Applikationer Eksterne Websites/Coop.Applikation.OAuthLogin/Trunk/src/Coop.Applikation.OAuthLogin/Coop.Applikation.OAuthLogin/Config/_PROD/Web.config"
+		"/C/Users/ko01epp/Desktop/ng-rem/spec/ngx-remote-validate.test.js"
 	],
 	"find":
 	{
@@ -389,6 +434,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pyv8",
 			"scope",
 			"this",
 			"ngxPane",
@@ -453,7 +499,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -462,8 +508,355 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/directives/ngx-when-scrolled.js",
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "// Directives",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/directives/ngx-when-scrolled.spec.js",
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/directives/ngx-validation.spec.js",
+					"settings":
+					{
+						"buffer_size": 2143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -473,7 +866,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -523,6 +916,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 288.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true
 }
