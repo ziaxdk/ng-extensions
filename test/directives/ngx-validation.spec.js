@@ -96,6 +96,12 @@ describe('ngxValidate', function() {
       expect(element).toHaveClass('ng-invalid-ngx-compare');
     }));
 
+    it('should have ng-valid-ngx-comapre class when initiated', inject(function($compile) {
+      var element = $compile(html)(scope);
+      scope.$digest();
+      expect(element).toHaveClass('ng-valid-ngx-compare');
+    }));
+
     afterEach(function() {
       scope.$destroy();
     });

@@ -14,10 +14,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'src/angular-1.2.0-rc.2/jquery-1.10.2.min.js',
-      'src/angular-1.2.0-rc.2/angular.js',
-      'src/angular-1.2.0-rc.2/angular-mocks.js',
-      'src/angular-1.2.0-rc.2/matchers.js',
+      'src/angular-1.2.9/jquery-1.10.2.min.js',
+      'src/angular-1.2.9/angular.js',
+      'src/angular-1.2.9/angular-mocks.js',
+      'src/angular-1.2.9/matchers.js',
       'src/directives/*.js',
       'test/directives/*.spec.js'
     ],
