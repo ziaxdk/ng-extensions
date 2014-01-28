@@ -68,4 +68,28 @@
     };
   }]);
 
+  module.directive('ngxCompare', [function() {
+    return {
+      restrict: 'A',
+      require: 'ngModel',
+      link: function(scope, element, attrs, ngModel) {
+        var otherVal, ngModelVal;
+        
+        scope.$watch(attrs.ngxCompare, function(val) {
+          otherVal = val;
+          compare();
+        });
+
+        ngModel.$render = function() {
+          ngModelVal = ngModel.$viewValue;
+          compare();
+        };
+
+        function compare() {
+          ngModel.$setValidity('ngx-compare', otherVal == ngModelVal);
+        }
+      }
+    };
+  }]);
+  
 }());

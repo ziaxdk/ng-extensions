@@ -71,4 +71,33 @@ describe('ngxValidate', function() {
     }));
 
   });
+
+  describe('ngxCompare', function() {
+    var html = '<input type="text" ng-model="model.value1" ngx-compare="model.value2" />'
+      , scope;
+    beforeEach(inject(function($injector) {
+      scope = $injector.get('$rootScope');
+      scope.model = {};
+    }));
+
+    it('should be ok when values are equal', inject(function($compile) {
+      var element = $compile(html)(scope);
+      scope.model.value1 = 'test';
+      scope.model.value2 = 'test';
+      scope.$digest();
+      expect(element).toHaveClass('ng-valid-ngx-compare');
+    }));
+
+    it('should fail when values are not equal', inject(function($compile) {
+      var element = $compile(html)(scope);
+      scope.model.value1 = 'bum';
+      scope.model.value2 = 'test';
+      scope.$digest();
+      expect(element).toHaveClass('ng-invalid-ngx-compare');
+    }));
+
+    afterEach(function() {
+      scope.$destroy();
+    });
+  });
 });
