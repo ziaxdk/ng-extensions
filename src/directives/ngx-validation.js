@@ -75,8 +75,9 @@
       link: function(scope, element, attrs, ngModel) {
         var otherVal, ngModelVal;
         
-        attrs.$observe('ngModel', function(val) {
-          ngModelVal = $parse(val)(scope);
+        scope.$watch(function() { return ngModel.$modelValue; }, function(val) {
+          ngModelVal = val;
+          compare();
         });
 
         scope.$watch(attrs.ngxCompare, function(val) {
